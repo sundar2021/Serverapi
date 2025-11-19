@@ -9,10 +9,10 @@ load_dotenv()
 app = Flask(__name__)
  
 # Configuration from environment variables
-TENANT_ID = os.getenv('TENANT_ID')
-CLIENT_ID = os.getenv('CLIENT_ID')
-CLIENT_SECRET = os.getenv('CLIENT_SECRET')
-SUBDOMAIN = os.getenv('SUBDOMAIN')
+TENANT_ID = "cb561bac-8eae-4e86-979a-765c514af3ae"
+CLIENT_ID = "https://immersivereader100.cognitiveservices.azure.com/"
+CLIENT_SECRET = "DWMjNMH2pDwwfzJAE9QtV7UnTC2mMV6bfo2javqyyuh0Kj5Kv4A5JQQJ99BKACYeBjFXJ3w3AAAOACOGnDiu"
+SUBDOMAIN = "immersivereader100"
 RESOURCE = "https://cognitiveservices.azure.com/"
  
 if not all([TENANT_ID, CLIENT_ID, CLIENT_SECRET, SUBDOMAIN]):
